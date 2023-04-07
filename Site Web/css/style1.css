@@ -1,0 +1,93 @@
+/*------------------------------------------------------------- css du contact------------------------------------------------------------- */
+.titre_contact {  
+    font-size: 24px;
+    font-weight: bold;  
+    
+}
+
+.contact p span {
+    font-weight: bold;
+    color: #3b195d;
+}
+
+
+
+.align{
+    display: flex;
+    width: calc(100vw - 400px);
+    line-height: 50px;
+}
+
+
+
+/*------------------------------------------------------------- css des informations -------------------------------------------------------------*/
+.informations {
+    font-size: 20px;
+
+}
+.informations h1 {
+    color: #3b195d;
+    font-family:  'Gergia',serif, cursive;
+}
+
+.informations ul {
+    list-style-type:none;
+    line-height: 50px;
+}
+
+.sport::before{
+    content: "►";
+    margin-right: 10px;
+    color: #3b195d;
+}
+
+.warning {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+
+.warning span {
+    color: #3b195d;
+}
+
+.informations ul li span {
+    color: #3b195d;
+    font-weight: bold;
+}
+
+.warning_panel {
+    width: 8%;
+}
+
+.pass {
+    font-family: 'Nunito Sans', serif;
+}
+
+
+/* transition pour le slider => original */
+@keyframes translate {
+    0% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-1000px);
+    }
+    43% {
+        transform: translateX(-1000px);
+    }
+    66% {
+        transform: translateX(-2000px);
+    }
+    76% {
+        transform: translateX(-2000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

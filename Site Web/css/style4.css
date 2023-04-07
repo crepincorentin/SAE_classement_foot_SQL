@@ -1,0 +1,20 @@
+
+
+/*-------------------------------------------------------------css du slider------------------------------------------------------------- */
+
+.slider {
+    width: 1000px;
+    overflow: hidden;
+    margin: 20px auto;
+    height: 200px;
+}
+
+
+.slides {
+    width: calc(5000px * 3);
+    animation: translate 15s infinite;
+}
+
+.slide {
+    float:left;
+}
